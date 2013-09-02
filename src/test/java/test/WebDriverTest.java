@@ -38,6 +38,8 @@ public class WebDriverTest {
     @InSequence(1)
     public void login() {
         Assert.assertNotNull(driver);
+        System.out.println("Driver: "+driver);
+        System.out.println("Context Path: "+contextPath);
         LoginPage page = new LoginPage(driver, contextPath);
         page.login(USERNAME, PASSWORD);
     }

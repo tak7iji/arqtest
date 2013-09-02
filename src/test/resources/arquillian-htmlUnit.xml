@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+<!--
+    <extension qualifier="webdriver">
+        <property name="browserCapabilities">firefox</property>
+        <property name="capabilityWebdriverFirefoxBin">/usr/bin/firefox</property>
+    </extension>
+-->
+    <container qualifier="tomcat-managed" default="true">
+        <configuration>
+            <property name="catalinaHome">/root/apache-tomcat-7.0.40</property>
+            <property name="user">arquillian</property>
+            <property name="pass">arquillian</property>
+        </configuration>
+    </container>
+</arquillian>

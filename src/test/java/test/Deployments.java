@@ -15,7 +15,7 @@ public class Deployments {
                 .addAsWebResource(new File("src/main/webapp/index.html"))
                 .addAsWebResource(new File("src/main/webapp/loggedin.html"))
                 .addAsWebResource(new File("src/main/webapp/loggedout.html"))
-                .setWebXML(new File("src/main/webapp/web.xml"));
+                .setWebXML(new File("src/main/webapp/WEB-INF/web.xml"));
 
         System.out.println(war.toString(true));
         return war;
