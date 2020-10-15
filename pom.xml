@@ -7,7 +7,7 @@
   <packaging>war</packaging>
   <version>1.0.1-SNAPSHOT</version>
   <properties>
-    <version.junit>4.11</version.junit>
+    <version.junit>4.13.1</version.junit>
     <version.arquillian_core>1.1.1.Final</version.arquillian_core>
     <version.org.jboss.arquillian.drone>1.2.0.Alpha3</version.org.jboss.arquillian.drone>
     <version.org.jboss.arquillian.phantom.driver>1.1.0.Beta1</version.org.jboss.arquillian.phantom.driver>
